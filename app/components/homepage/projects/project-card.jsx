@@ -1,7 +1,13 @@
 // @flow strict
+<<<<<<< HEAD
 
 import * as React from 'react';
 
+=======
+import * as React from 'react';
+
+
+>>>>>>> master
 function ProjectCard({ project }) {
 
   return (
@@ -17,12 +23,47 @@ function ProjectCard({ project }) {
           <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-green-200"></div>
         </div>
         <p className="text-center ml-3 text-[#16f2b3] text-base lg:text-xl">
+<<<<<<< HEAD
           {project.name}
         </p>
       </div>
       <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">
         <code className="font-mono text-xs md:text-sm lg:text-base">
           <div className="blink">
+=======
+          {project.title}
+        </p>
+      </div>
+      <div className="px-4 lg:px-8 py-3 lg:py-5 relative">
+        <div className="flex flex-row space-x-1 lg:space-x-2 absolute top-1/2 -translate-y-1/2">
+          <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-blue-400"></div>
+          <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-green-400"></div>
+          <div className="h-2 w-2 lg:h-3 lg:w-3 rounded-full bg-red-200"></div>
+        </div>
+        <p className="text-center ml-3 text-[#16f2b3] text-base lg:text-xl">
+          {project.name}
+          {/* <a href={project.link} target="_blank" rel="noopener noreferrer">demo</a> */}
+        </p>
+      </div>
+      <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">
+      <div>
+      <div>
+        <a>Devpost:</a>
+        <a href="https://www.linkedin.com/in/kavya-dalmia-94952a1a5/recent-activity/all/" target="_blank" rel="noopener noreferrer"> link</a>
+      </div>
+      <div>
+        <a>Github:</a>
+        <a href="https://www.linkedin.com/in/kavya-dalmia-94952a1a5/recent-activity/all/" target="_blank" rel="noopener noreferrer"> link</a>
+      </div>
+      <div>
+        <a>Read more on LinkedIn:</a>
+        <a href="https://www.linkedin.com/in/kavya-dalmia-94952a1a5/recent-activity/all/" target="_blank" rel="noopener noreferrer"> link</a>
+      </div>
+    </div>
+
+        <code className="font-mono text-xs md:text-sm lg:text-base">
+          <div className="blink"> 
+>>>>>>> master
             <span className="mr-2 text-pink-500">const</span>
             <span className="mr-2 text-white">project</span>
             <span className="mr-2 text-pink-500">=</span>
@@ -36,7 +77,11 @@ function ProjectCard({ project }) {
           </div>
 
           <div className="ml-4 lg:ml-8 mr-2">
+<<<<<<< HEAD
             <span className=" text-white">tools:</span>
+=======
+            <span className=" text-white">technologies and tools:</span>
+>>>>>>> master
             <span className="text-gray-400">{` ['`}</span>
             {
               project.tools.map((tag, i) => (
@@ -58,10 +103,31 @@ function ProjectCard({ project }) {
           </div>
           <div className="ml-4 lg:ml-8 mr-2">
             <span className="text-white">Description:</span>
+<<<<<<< HEAD
             <span className="text-cyan-400">{' ' + project.description}</span>
             <span className="text-gray-400">,</span>
           </div>
           <div><span className="text-gray-400">{`};`}</span></div>
+=======
+            <ul>
+              <li><span className="text-cyan-400">{' ' + project.description1}</span></li>
+              <li><span className="text-cyan-400">{' ' + project.description2}</span></li>
+              <li><span className="text-cyan-400">{' ' + project.description3}</span></li>
+            </ul>
+            <span className="text-gray-400">,</span>
+          </div>
+          <div className="ml-4 lg:ml-8 mr-2">
+            <span className="text-white">Awards:</span>
+            <span className="text-pink-400">{' ' + project.awards}</span>
+            {/* <span className="text-gray-400">,</span> */}
+          </div>
+          <div><span className="text-gray-400">{`};`}</span></div>
+          <div style={{ display: 'flex', justifyContent: 'center', margin: 'auto', gap: '50px' }}>
+                            <img src={project.image1} className="w-40 mt-4" />
+                            <img src={project.image2} className="w-40 mt-4" />
+                            <img src={project.image3} className="w-40 mt-4" />
+                          </div>
+>>>>>>> master
         </code>
       </div>
     </div>

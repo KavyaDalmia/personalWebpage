@@ -33,7 +33,11 @@ export default async function Home() {
       <Skills />
       <Projects />
       <Education />
+<<<<<<< HEAD
       <Blog blogs={blogs} />
+=======
+      
+>>>>>>> master
       <ContactSection />
     </>
   )

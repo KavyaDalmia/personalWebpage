@@ -29,14 +29,24 @@ function Experience() {
       </div>
 
       <div className="py-8">
+<<<<<<< HEAD
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
           <div className="flex justify-center items-start">
             <div className="w-full h-full">
+=======
+        <div className="grid grid-cols-1">
+          <div className="flex justify-center items-start">
+            <div className="w-100 h-100">
+>>>>>>> master
               <AnimationLottie animationPath={experience} />
             </div>
           </div>
 
+<<<<<<< HEAD
           <div>
+=======
+          <div style={{ maxWidth: '1000px' }}>
+>>>>>>> master
             <div className="flex flex-col gap-6">
               {
                 experiences.map(experience => (
@@ -65,6 +75,19 @@ function Experience() {
                           <p className="text-sm sm:text-base">
                             {experience.company}
                           </p>
+<<<<<<< HEAD
+=======
+                          <ul style={{ listStyleType: 'circle' }}>
+                            <li>{experience.desc1}</li>
+                            <li>{experience.desc2}</li>
+                            <li>{experience.desc3}</li>
+                          </ul>
+                          <div style={{ display: 'flex', justifyContent: 'center', margin: 'auto', gap: '50px' }}>
+                            <img src={experience.image1} className="w-40 mt-4" />
+                            <img src={experience.image2} className="w-40 mt-4" />
+                            {/* <img src={experience.image3} className="w-40 mt-4" /> */}
+                          </div>
+>>>>>>> master
                         </div>
                       </div>
                     </div>
