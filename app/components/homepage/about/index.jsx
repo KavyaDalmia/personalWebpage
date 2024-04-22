@@ -26,13 +26,8 @@ function AboutSection() {
           <Image
             src={personalData.profile}
             width={280}
-<<<<<<< HEAD
-            height={280}
-            alt="Abu Said"
-=======
             height={270}
             alt="Kavya"
->>>>>>> master
             className="rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
           />
         </div>

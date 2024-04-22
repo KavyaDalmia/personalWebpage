@@ -31,21 +31,13 @@ function ContactSection() {
               <span>{personalData.email}</span>
             </p>
             <p className="text-sm md:text-xl flex items-center gap-3">
-<<<<<<< HEAD
-              <IoMdCall
-=======
               {/* <IoMdCall
->>>>>>> master
                 className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                 size={36}
               />
               <span>
                 {personalData.phone}
-<<<<<<< HEAD
-              </span>
-=======
               </span> */}
->>>>>>> master
             </p>
             <p className="text-sm md:text-xl flex items-center gap-3">
               <CiLocationOn
@@ -70,42 +62,24 @@ function ContactSection() {
                 size={48}
               />
             </Link>
-<<<<<<< HEAD
-            <Link target="_blank" href={personalData.twitter}>
-=======
             {/* <Link target="_blank" href={personalData.twitter}>
->>>>>>> master
               <FaXTwitter
                 className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                 size={48}
               />
-<<<<<<< HEAD
-            </Link>
-            <Link target="_blank" href={personalData.stackOverflow}>
-=======
             </Link> */}
             {/* <Link target="_blank" href={personalData.stackOverflow}>
->>>>>>> master
               <FaStackOverflow
                 className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                 size={48}
               />
-<<<<<<< HEAD
-            </Link>
-            <Link target="_blank" href={personalData.facebook}>
-=======
             </Link> */}
             {/* <Link target="_blank" href={personalData.facebook}>
->>>>>>> master
               <FaFacebook
                 className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                 size={48}
               />
-<<<<<<< HEAD
-            </Link>
-=======
             </Link> */}
->>>>>>> master
           </div>
         </div>
       </div>
