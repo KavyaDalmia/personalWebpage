@@ -16,9 +16,9 @@ export const projectsData = [
         code: '',
         demo: '',
         image: crefin,
-        github: 'https://devpost.com/software/aviary-hmcbs6',
-        devpost: '',
-        linkedIn: '',
+        github: 'https://github.com/Bhag-Cheema/youCode2024.pt2',
+        devpost: 'https://devpost.com/software/aviary-hmcbs6',
+        linkedIn: 'https://www.linkedin.com/feed/update/urn:li:activity:7183658969935097856/',
         //image1: "/expImages/youCode.png",
         image1: "/expImages/youcode2.png",
         image2: "/expImages/youcode3.png"
@@ -36,9 +36,9 @@ export const projectsData = [
         code: '',
         demo: '',
         image: travel,
-        github: 'https://devpost.com/software/aviary-hmcbs6',
+        github: '',
         devpost: '',
-        linkedIn: '',
+        linkedIn: 'https://www.linkedin.com/posts/kavya-dalmia-94952a1a5_dataanalytics-aiintegration-sap-activity-7178949773842944000-MAsy?utm_source=share&utm_medium=member_desktop',
         image1: "/expImages/cc1.png",
         image2: "/expImages/cc2.png",
         image3: "/expImages/cc3.png"
@@ -56,9 +56,9 @@ export const projectsData = [
         code: '',
         demo: '',
         image: travel,
-        github: 'https://devpost.com/software/aviary-hmcbs6',
-        devpost: '',
-        linkedIn: '',
+        github: 'https://github.com/novahdesign/realm',
+        devpost: 'https://lnkd.in/gJKV2RFX',
+        linkedIn: 'https://www.linkedin.com/posts/kavya-dalmia-94952a1a5_technology-data-thankyou-activity-7173031426009882625-NxEH?utm_source=share&utm_medium=member_desktop',
         image1: "/expImages/cmd-f1.png",
         image2: "/expImages/cmd-f2.png",
         image3: "/expImages/cmd-f3.png"
@@ -75,7 +75,7 @@ export const projectsData = [
         code: '',
         demo: '',
         image: travel,
-        github: 'https://devpost.com/software/aviary-hmcbs6',
+        github: 'https://github.students.cs.ubc.ca/CPSC304-2023W-T2/project_g1r6s_p2z0h_w3d0q',
         devpost: '',
         linkedIn: ''
     }

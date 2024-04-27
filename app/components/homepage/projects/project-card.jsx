@@ -35,15 +35,15 @@ function ProjectCard({ project }) {
       <div>
       <div>
         <a>Devpost:</a>
-        <a href="https://www.linkedin.com/in/kavya-dalmia-94952a1a5/recent-activity/all/" target="_blank" rel="noopener noreferrer"> link</a>
+        <a className="text-cyan-300" href={project.devpost} target="_blank" rel="noopener noreferrer">{project.devpost}</a>
       </div>
       <div>
         <a>Github:</a>
-        <a href="https://www.linkedin.com/in/kavya-dalmia-94952a1a5/recent-activity/all/" target="_blank" rel="noopener noreferrer"> link</a>
+        <a className="text-cyan-300" href={project.github} target="_blank" rel="noopener noreferrer"> {project.github}</a>
       </div>
       <div>
         <a>Read more on LinkedIn:</a>
-        <a href="https://www.linkedin.com/in/kavya-dalmia-94952a1a5/recent-activity/all/" target="_blank" rel="noopener noreferrer"> link</a>
+        <a className="text-cyan-300" href={project.linkedIn} target="_blank" rel="noopener noreferrer"> {project.linkedIn} </a>
       </div>
     </div>
 
