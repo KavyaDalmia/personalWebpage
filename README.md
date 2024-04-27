@@ -1,11 +1,5 @@
-<<<<<<< HEAD
 # Kavya Dalmia Developer Portfolio
 =======
-<<<<<<< HEAD
-# Developer Portfolio
-=======
-# Personal Website
-
 Templates used:
 
 https://www.free-css.com/free-css-templates/page270/univers
